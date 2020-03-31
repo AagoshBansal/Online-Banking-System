@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CheckUser</servlet-name>
+  	<display-name>CheckUser</display-name>
+  	<description></description>
+  	<servlet-class>dao.CheckUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>dao.RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WithdrawMoney</servlet-name>
+  	<display-name>WithdrawMoney</display-name>
+  	<description></description>
+  	<servlet-class>dao.WithdrawMoney</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DepositMoney</servlet-name>
+  	<display-name>DepositMoney</display-name>
+  	<description></description>
+  	<servlet-class>dao.DepositMoney</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CheckUser</servlet-name>
+  	<url-pattern>/CheckUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WithdrawMoney</servlet-name>
+  	<url-pattern>/WithdrawMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DepositMoney</servlet-name>
+  	<url-pattern>/DepositMoney</url-pattern>
+  </servlet-mapping>
+  </web-app>
